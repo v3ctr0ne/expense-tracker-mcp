@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tracker": {
+      "command": "python",
+      "args": ["/absolute/path/to/mcp_tracker.py"],
+       "env": { "TRACKER_FILE": "/optional/path/to/tasks.csv" }
+    }
+  }
+}
